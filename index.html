@@ -1,68 +1,85 @@
-<style>
-    div {
-        height: 400px;
-        width: 800px;
-        padding: 50px;
-        background: linear-gradient(140deg, #ff00ff, #0000ff, #00ffff, #00ff00, #ffff00, #ff0000, #ff00ff, #0000ff, #00ffff, #00ff00, #ffff00, #ff0000, #ff00ff);
-        background-size: 200% 200%;
+<!DOCTYPE html>
+<html>
 
-        -webkit-animation: loop 5s linear normal infinite;
-        -moz-animation: loop 5s linear normal infinite;
-        animation: loop 5s linear normal infinite;
-    }
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Nire ordutegia</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
 
-    p {
-        font-family: Comic Sans MS, Comic Sans, cursive;
-        font-size: 50px;
-        float: left;
-    }
+<body>
+    <h1 onclick="aldatu()" id="tituloa">
+        Ordutegia
+    </h1>
+    <table>
+        <tr>
+            <th>Ordua</th>
+            <th>Astelehena</th>
+            <th>Asteartea</th>
+            <th>Asteazkena</th>
+            <th>Osteguna</th>
+            <th>Ostirala</th>
+        </tr>
+        <tr>
+            <th class="ordua">08:30</th>
+            <td class="mat">Matematika</td>
+            <td class="mat">Matematika</td>
+            <td class="eus">Euskera</td>
+            <td class="gh">GH</td>
+            <td class="mat">Matematika</td>
+        </tr>
+        <tr>
+            <th class="ordua">09:30</th>
+            <td class="eus">Euskera</td>
+            <td class="fk">Fisikimi</td>
+            <td class="biz">Biziki</td>
+            <td class="gh">GH</td>
+            <td class="eus">Euskera</td>
+        </tr>
+        <tr>
+            <th class="ordua">10:30</th>
+            <td colspan="5" class="atseden">Patio</td>
+        </tr>
+        <tr>
+            <th class="ordua">11:00</th>
+            <td class="fk">Fisikimi</td>
+            <td class="giz">Gizarte</td>
+            <td class="giz">Gizarte</td>
+            <td class="dig">Digit</td>
+            <td class="giz">Gizarte</td>
+        </tr>
+        <tr>
+            <th class="ordua">12:00</th>
+            <td class="ing">Ingles</td>
+            <td class="ing">Ingles</td>
+            <td class="dig">Digit</td>
+            <td class="ing">Ingles</td>
+            <td class="fk">Fisikimi</td>
+        </tr>
+        <tr>
+            <th class="ordua">13:00</th>
+            <td colspan="5" class="atseden">Bazkaldu</td>
+        </tr>
+        <tr>
+            <th class="ordua">14:30</th>
+            <td class="gaz">Gazte</td>
+            <td class="gaz">Gazte</td>
+            <td class="gaz">Gazte</td>
+            <td class="mat">Matematika</td>
+            <td class="tek">Tekno</td>
+        </tr>
+        <tr>
+            <th class="ordua">15:30</th>
+            <td class="dig">Digit</td>
+            <td class="tek">Tekno</td>
+            <td class="tek">Tekno</td>
+            <td class="eus">Euskera</td>
+            <td class="gaz">Gazte</td>
+        </tr>
+    </table>
+</body>
 
-    img {
-        background-color: white;
-        float: right;
-        top: 50px;
-        height: 250px;
-        width: 200px;
-        padding: 25px;
-    }
-
-
-    @-webkit-keyframes loop {
-        0% {
-            background-position: 0% 0%
-        }
-
-        100% {
-            background-position: 100% 100%
-        }
-    }
-
-    @-moz-keyframes loop {
-        0% {
-            background-position: 0% 0%
-        }
-
-        100% {
-            background-position: 100% 100%
-        }
-    }
-
-    @keyframes loop {
-        0% {
-            background-position: 0% 0%
-        }
-
-        100% {
-            background-position: 100% 100%
-        }
-    }
-</style>
-<div>
-    <p>
-        graphic design is
-        <br>
-        my passion.
-    </p>
-    <img
-        src="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/7793015/vintage-style-grey-cat-kitten-clip-art-vector-remake-clipart-md.png" />
-</div>
+</html>
